@@ -1,0 +1,23 @@
+Dataset:
+    data_file_path : data/heat_conductivity_data_50.h5
+    target_path_xx : heat_flux/dset_{}/direction_xx
+    target_path_xy : heat_flux/dset_{}/direction_xy
+    image_path : image_data/dset_{}
+    test_percentage : 0.10
+    val_percentage : 0.20
+    
+Hyperparameters:   
+    num_epochs : 5
+    train_batch_size : 5
+    val_batch_size : 5
+    test_batch_size : 5
+    weight_decay : 0
+    lr : 0.001
+
+Data_log:
+    save_freq : 20
+    exp_no : 1
+    
+Device:    
+    all_GPUs :  Yes
+    select_GPU : 0

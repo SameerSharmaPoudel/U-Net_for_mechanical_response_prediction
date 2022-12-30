@@ -1,0 +1,17 @@
+import model_128_256_skip_inception
+import model_128_512_skip_inception
+import model_128_1024_skip_inception
+import model_128_2048_skip_inception
+import model_128_16x16_skip_inception
+import model_128_32x32_skip_inception
+import model_128_1024_skip_stdconv
+import model_128_1024_noskip_inception
+import model_128_16x16_skip_stdconv
+import model_128_16x16_noskip_inception
+
+
+model_list = [model_128_256_skip_inception.model, model_128_512_skip_inception.model, model_128_1024_skip_inception.model, model_128_2048_skip_inception.model]
+model_name = ['model_128_256_skip_inception','model_128_512_skip_inception','model_128_1024_skip_inception', 'model_128_2048_skip_inception']
+
+
+
